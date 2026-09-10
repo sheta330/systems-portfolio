@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khaled Ahmed Sheta — systems architecture, AMR operations, data platforms and business-focused engineering portfolio.">
+  <title>Khaled Ahmed Sheta | Systems Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="brand-mark">KS</span>
+      <span>Khaled Ahmed Sheta</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#work">Selected work</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="approach.html">Approach</a>
+      <a class="nav-cta" href="mailto:hello@example.com">Start a conversation <span>↗</span></a>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle color theme">◐</button>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Systems architect · product-minded engineer</p>
+        <h1>Turning complex operations into <em>decisive systems.</em></h1>
+        <p class="hero-lede">I design and build reliable digital platforms for energy operations, enterprise workflows and intelligent products — connecting business intent to software that teams can trust.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore the work <span>↓</span></a>
+          <a class="text-link" href="approach.html">How I work <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>5+</strong><span>years shaping<br>production systems</span></div>
+          <div><strong>09</strong><span>payment and<br>integration patterns</span></div>
+          <div><strong>01</strong><span>principle: clarity<br>before complexity</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-1" aria-label="System signal visualization">
+        <div class="visual-topline"><span>LIVE SYSTEM VIEW</span><span class="mono">09.10.26 / 14:32</span></div>
+        <div class="signal-grid">
+          <span class="signal signal-a"></span><span class="signal signal-b"></span><span class="signal signal-c"></span><span class="signal signal-d"></span>
+          <span class="signal signal-e"></span><span class="signal signal-f"></span><span class="signal signal-g"></span><span class="signal signal-h"></span>
+          <span class="signal signal-i"></span><span class="signal signal-j"></span><span class="signal signal-k"></span><span class="signal signal-l"></span>
+        </div>
+        <div class="visual-core"><span class="core-ring"></span><span class="core-label">SYSTEM<br>INTELLIGENCE</span></div>
+        <div class="visual-footer"><span><i class="legend green"></i> healthy flows</span><span><i class="legend orange"></i> attention paths</span><span class="mono">01 / 03</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><div class="section-shell trust-inner"><span>Built around real operational constraints</span><span>AMR / HES</span><span>ETL &amp; streaming</span><span>ERP workflows</span><span>AI &amp; payments</span></div></section>
+
+    <section class="section-shell work-section" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow">Selected work</p><h2>Systems that move<br><em>the business forward.</em></h2></div><p class="section-intro">A curated view of platforms, services and product architecture built across energy, enterprise operations and intelligent automation.</p></div>
+      <div class="filter-bar" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all">All work <span>03</span></button><button class="filter" data-filter="platform">Platforms</button><button class="filter" data-filter="data">Data &amp; integration</button><button class="filter" data-filter="product">Product architecture</button></div>
+      <div class="project-list">
+        <article class="project-card project-featured reveal" data-category="platform">
+          <div class="project-visual energy-visual"><div class="visual-caption">01 / ENERGY OPERATIONS</div><div class="meter-map"><span class="map-line line-1"></span><span class="map-line line-2"></span><span class="map-line line-3"></span><i class="pin p1"></i><i class="pin p2"></i><i class="pin p3"></i><i class="pin p4"></i><div class="map-center">AMR<br><small>CONTROL PLANE</small></div></div><div class="visual-chip">● 1,248 meters online</div></div>
+          <div class="project-content"><div class="project-top"><span class="project-kind">Platform / Operations</span><span class="project-year">AMR · HES</span></div><h3>Making distributed energy data operational.</h3><p>A command and visibility layer for Advanced Metering and Head-End operations — designed to help teams move from raw device signals to accountable action.</p><div class="project-tags"><span>Angular</span><span>.NET 8</span><span>SQL Server</span><span>Azure</span></div><a class="arrow-link" href="case-study.html#amr">Read case study <span>↗</span></a></div>
+        </article>
+        <article class="project-card reveal delay-1" data-category="data">
+          <div class="project-visual data-visual"><div class="visual-caption">02 / DATA MOVEMENT</div><div class="stream-lines"><span></span><span></span><span></span><span></span><span></span></div><div class="stream-label"><b>EVENT</b><strong>→</strong><b>TRANSFORM</b><strong>→</strong><b>TRUST</b></div><div class="visual-chip">Kafka · UDP · DLMS</div></div>
+          <div class="project-content"><div class="project-top"><span class="project-kind">Data &amp; Integration</span><span class="project-year">ETL / Streaming</span></div><h3>Reliable data paths at the edge.</h3><p>Windows services and integration components that collect, decode, transport and load high-volume meter data without hiding operational failure modes.</p><div class="project-tags"><span>C#</span><span>Kafka</span><span>UDP</span><span>Oracle</span></div><a class="arrow-link" href="case-study.html#etl">Read case study <span>↗</span></a></div>
+        </article>
+        <article class="project-card reveal delay-2" data-category="product">
+          <div class="project-visual product-visual"><div class="visual-caption">03 / PRODUCT ARCHITECTURE</div><div class="gateway-stack"><span>PAYMENT</span><span>ROUTING</span><span>RESILIENCE</span><span>OBSERVABILITY</span></div><div class="visual-chip">9+ providers · one contract</div></div>
+          <div class="project-content"><div class="project-top"><span class="project-kind">Product architecture</span><span class="project-year">WISC</span></div><h3>One payment surface. Many providers.</h3><p>An extensible payment architecture that turns fragmented provider APIs into a consistent product capability for teams shipping with confidence.</p><div class="project-tags"><span>Strategy Pattern</span><span>Events</span><span>NuGet</span><span>RAG / AI</span></div><a class="arrow-link" href="case-study.html#wisc">Read case study <span>↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="capabilities section-shell" id="capabilities"><div class="section-heading reveal"><div><p class="eyebrow">What I bring</p><h2>Technical depth with<br><em>business context.</em></h2></div></div><div class="capability-grid"><div class="capability reveal"><span class="cap-number">01</span><h3>Architecture &amp; leadership</h3><p>Clean Architecture, DDD, modular boundaries and standards that help a team make good decisions repeatedly.</p><span class="cap-line">System design / Technical direction / Mentoring</span></div><div class="capability reveal delay-1"><span class="cap-number">02</span><h3>Operational platforms</h3><p>Dashboards, command centers and workflow tools that make the state of a business visible and actionable.</p><span class="cap-line">Angular / Maps / Charts / Role-based UX</span></div><div class="capability reveal delay-2"><span class="cap-number">03</span><h3>Data that earns trust</h3><p>Integration pipelines where throughput, traceability and failure recovery are designed in from day one.</p><span class="cap-line">Kafka / UDP / DLMS / Windows Services</span></div><div class="capability reveal"><span class="cap-number">04</span><h3>Intelligent products</h3><p>AI and payment capabilities shaped as maintainable products, not disconnected experiments.</p><span class="cap-line">Multi-agent systems / RAG / API contracts</span></div></div></section>
+
+    <section class="closing section-shell"><div class="closing-inner reveal"><p class="eyebrow">Have a complex system to clarify?</p><h2>Let’s make the next<br><em>decision a good one.</em></h2><a class="button button-light" href="mailto:hello@example.com">hello@example.com <span>↗</span></a></div></section>
+  </main>
+  <footer class="site-footer section-shell"><span>© 2026 Khaled Ahmed Sheta</span><span>Systems / architecture / delivery</span><a href="#top">Back to top ↑</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>
